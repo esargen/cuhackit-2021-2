@@ -1,0 +1,120 @@
+#contact {
+    // mobile
+    @media only screen and (max-width: 700px) {
+        margin-top: 20vh;
+        margin-left: 0vw;
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+        margin-left: 415vw;
+        margin-top: -20vh;
+    }
+}
+
+.linkWrapper {
+    // mobile
+    @media only screen and (max-width: 700px) {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+.linkWrapper > a {
+    // mobile
+    @media only screen and (max-width: 700px) {
+        margin-top: 5vh;
+        padding: 15px;
+        background-color: #eb8258;
+        color: #edf0e2;
+        width: 50vw;
+        border-radius: 20px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 4vw;
+        line-height: 4vh;
+        height: 30px;
+        text-transform: none !important;
+        z-index: 5;
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+        padding: 15px;
+        background-color: #eb8258;
+        color: #edf0e2;
+        max-width: 24%;
+        border-radius: 20px;
+        text-align: center;
+        font-weight: 600;
+        height: 30px;
+        text-transform: none !important;
+        z-index: 5;
+    }
+}
+
+#contact h3 {
+    // mobile
+    @media only screen and (max-width: 700px) {
+        color: #264653;
+        font-size: 20pt;
+        text-align: center;
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+        color: #264653;
+        font-size: 42pt;
+    }
+}
+
+#socials {
+    // mobile
+    @media only screen and (max-width: 700px) {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0vw;
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 4vw;
+    }
+}
+
+#socials .social {
+    // mobile
+    @media only screen and (max-width: 700px) {
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+    }
+    color: #eb8258;
+    text-transform: none;
+    width: 50px;
+    height: 50px;
+    background-color: #edf0e2;
+    border-radius: 100%;
+    text-align: center;
+    z-index: 5;
+}
+
+#socialIcon{
+    // mobile
+    @media only screen and (max-width: 700px) {
+    }
+    //desktop
+    @media only screen and (min-width: 700px) {
+    }
+    margin-top: 15px;
+}

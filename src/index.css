@@ -1,0 +1,10 @@
+:root {
+  --orange-color:#f2b880;
+  --blue-color: #b3d7e0
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(242, 184, 128);
+}

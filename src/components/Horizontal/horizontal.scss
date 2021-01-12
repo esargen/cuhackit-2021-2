@@ -1,0 +1,184 @@
+:root {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
+  --arrowWidth: 20vw;
+}
+
+#horizontalInset {
+  background-color: #f2b880;
+  // mobile
+  @media only screen and (max-width: 700px) {
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+    position: relative;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+}
+
+// // can't click links
+#roadimg {
+  // mobile
+  @media only screen and (max-width: 700px) {
+    display: none;
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+    position: absolute;
+    background-image: url("../../images/croppedRoad.png");
+    background-size: 100%;
+    width: 500%;
+    height: 100%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    z-index: 3;
+    pointer-events: none
+  }
+}
+
+#cliffface {
+  // mobile
+  @media only screen and (max-width: 700px) {
+    background-color: var(--orange-color);
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: relative;
+    width: 100vw;
+    float: left;
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+    background-image: url("../../images/cliffface.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: 3;
+    position: relative;
+    width: 300vw;
+    float: left;
+  }
+}
+
+#clifffaceContent {
+  // mobile
+  @media only screen and (max-width: 700px) {
+    max-width: 100%;
+    max-height: 425vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10vh;
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10vh;
+  }
+}
+
+#arrowContainer {
+  // mobile
+  @media only screen and (max-width: 700px) {
+    display: none;
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10vh;
+    margin-left: -20vw;
+  }
+}
+
+#arrow {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
+  background-image: url("../../images/arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: var(--arrowWidth);
+  position: relative;
+  z-index: 4;
+}
+
+#arrowLabel {
+  // mobile
+  @media only screen and (max-width: 700px) {
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+  }
+  font-size: 21pt;
+  color: #edf0e2;
+  width: var(--arrowWidth);
+  text-align: center;
+  margin-top: -5vh;
+}
+
+#van {
+  // mobile
+  @media only screen and (max-width: 700px) {
+    display: none;
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+    background-image: url("../../images/van.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 750px;
+    position: relative;
+    z-index: 4;
+    margin-top: -400px;
+    margin-left: 270vw;
+    float: left;
+  }
+}
+
+#skyContainer {
+  // mobile
+  @media only screen and (max-width: 700px) {
+    background-color: var(--blue-color);
+    z-index: 4;
+    position: relative;
+    width: 100vw;
+    float: left;
+    margin-left: 0vw;
+  }
+  //desktop
+  @media only screen and (min-width: 700px) {
+    background-image: url("../../images/bg2.png");
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+    width: 500vw;
+    float: left;
+    margin-top: -100vh;
+    margin-left: 0vw;
+  }
+}

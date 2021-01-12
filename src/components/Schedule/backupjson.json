@@ -1,0 +1,34 @@
+[
+    {
+      "day": "Saturday",
+      "hours": [
+          {"hour": "10:00", "activities":[ "Opening Ceremony", "", "" ] },
+          {"hour": "10:30", "activities":[ "Hacking Begins!", "", "" ] },
+          {"hour": "11:00", "activities":[ "Splunk Workshop", "", "" ] },
+          {"hour": "11:30", "activities":[ "Splunk Workshop", "", "" ] },
+          {"hour": "12:00", "activities":[ "AWS Power Hour", "Microsoft Power Hour", "" ] },
+          {"hour": "12:30", "activities":[ "AWS Power Hour", "Microsoft Power Hour", "" ] },
+          {"hour": "1:00", "activities":[ "", "Recruiting Session 1", "" ] },
+          {"hour": "1:30", "activities":[ "", "Recruiting Session 1", "Trivia" ] },
+          {"hour": "2:00", "activities":[ "AWS Workshop", "Recruiting Session 2", "" ] },
+          {"hour": "2:30", "activities":[ "", "Recruiting Session 2", "" ] },
+          {"hour": "3:00", "activities":[ "Microsoft Workshop", "Recruiting Session 3", "" ] },
+          {"hour": "3:30", "activities":[ "", "Recruiting Session 3", "Among Us" ] },
+          {"hour": "4:00", "activities":[ "AWS Power Hour", "Microsoft Power Hour", "Among Us" ] },
+          {"hour": "4:30", "activities":[ "AWS Power Hour", "Microsoft Power Hour", "" ] },
+          {"hour": "5:00", "activities":[ "Splunk Workshop", "", "" ] },
+          {"hour": "5:30", "activities":[ "Splunk Workshop", "Recruiting Session 4", "" ] },
+          {"hour": "6:00", "activities":[ "AWS Workshop", "Recruiting Session 4", "Scavenger Hunt"] },
+          {"hour": "7:00", "activities":[ "", "", "Game Tournament"] },
+          {"hour": "8:00", "activities":[ "", "", "Jackbox"] }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "hours": [
+          {"hour": "12:00", "activities":[ "knitting circle", "Python demo (live snakes)", "Stackxchange humility workshop" ] },
+          {"hour": "1:00", "activities":[ "knitting circle", "Python demo (live snakes)", "Stackxchange humility workshop" ] }
+      ]
+    }
+  ]
+  

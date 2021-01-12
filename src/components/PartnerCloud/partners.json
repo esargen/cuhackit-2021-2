@@ -1,0 +1,30 @@
+[
+  {
+    "imagelink": "https://cuhackit2021.s3.amazonaws.com/logos/AWS_logo_RGB.SVG",
+    "url": "https://aws.amazon.com/"
+  },
+  {
+    "imagelink": "https://cuhackit2021.s3.amazonaws.com/logos/microsoftPadding.png",
+    "url": "https://www.microsoft.com/"
+  },
+  {
+    "imagelink": "https://cuhackit2021.s3.amazonaws.com/logos/splunk2crop.svg",
+    "url": "https://www.splunk.com/"
+  },
+  {
+    "imagelink": "https://cuhackit2021.s3.amazonaws.com/logos/SoftdocsCropped.svg",
+    "url": "https://www.softdocs.com/"
+  },
+  {
+    "imagelink": "https://cuhackit2021.s3.amazonaws.com/logos/capgeminiNoPadding.png",
+    "url": "https://www.capgemini.com/us-en/"
+  },
+  {
+    "imagelink": "https://cuhackit2021.s3.amazonaws.com/logos/LPL.png",
+    "url": "https://www.lpl.com/"
+  },
+  {
+    "imagelink": "https://cuhackit2021.s3.amazonaws.com/logos/ASH.png",
+    "url": "https://www.ashcompanies.com/"
+  }
+]
