@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cuhackit-2021/static/css/main.ed21263c.chunk.css",
+    "main.js": "/cuhackit-2021/static/js/main.c31ed1ef.chunk.js",
+    "main.js.map": "/cuhackit-2021/static/js/main.c31ed1ef.chunk.js.map",
+    "runtime-main.js": "/cuhackit-2021/static/js/runtime-main.2afbfef2.js",
+    "runtime-main.js.map": "/cuhackit-2021/static/js/runtime-main.2afbfef2.js.map",
+    "static/js/2.9a5667b4.chunk.js": "/cuhackit-2021/static/js/2.9a5667b4.chunk.js",
+    "static/js/2.9a5667b4.chunk.js.map": "/cuhackit-2021/static/js/2.9a5667b4.chunk.js.map",
+    "static/js/3.63231948.chunk.js": "/cuhackit-2021/static/js/3.63231948.chunk.js",
+    "static/js/3.63231948.chunk.js.map": "/cuhackit-2021/static/js/3.63231948.chunk.js.map",
+    "index.html": "/cuhackit-2021/index.html",
+    "static/css/main.ed21263c.chunk.css.map": "/cuhackit-2021/static/css/main.ed21263c.chunk.css.map",
+    "static/js/2.9a5667b4.chunk.js.LICENSE.txt": "/cuhackit-2021/static/js/2.9a5667b4.chunk.js.LICENSE.txt",
+    "static/media/horizontal.scss": "/cuhackit-2021/static/media/van.6db6dd00.png",
+    "static/media/vertical.scss": "/cuhackit-2021/static/media/sand.dd96a18c.png",
+    "static/media/postcard.scss": "/cuhackit-2021/static/media/border.cf5c193e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2afbfef2.js",
+    "static/js/2.9a5667b4.chunk.js",
+    "static/css/main.ed21263c.chunk.css",
+    "static/js/main.c31ed1ef.chunk.js"
+  ]
+}
